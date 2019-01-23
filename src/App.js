@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import '@vaadin/vaadin-date-picker';
+import '@polymer/paper-input/paper-input';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
       // </div>
       <div className="App">
         <vaadin-date-picker label="When were you born?"></vaadin-date-picker>
+        <paper-input always-float-label label="Floating label"></paper-input>
       </div>
     );
   }

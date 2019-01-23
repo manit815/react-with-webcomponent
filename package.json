@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@polymer/paper-input": "^3.0.1",
     "@vaadin/vaadin-date-picker": "^3.3.2",
     "@webcomponents/webcomponentsjs": "^2.2.4",
     "react": "^16.7.0",
@@ -20,7 +21,8 @@
   "keywords": [
     "react",
     "web-components",
-    "vaadin"
+    "vaadin",
+    "polymer"
   ],
   "vendorCopy": [
     {
